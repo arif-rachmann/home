@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diskusi 5 Kalkulus</title>
+    <link rel="stylesheet" href="file:///C:/Users/Arif%20Rachman/Downloads/body%20kalkulus.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#soal1">Soal 1</a></li>
+            <li><a href="#soal2">Soal 2</a></li>
+        </ul>
+    </nav>
+
+    <h1>Diskusi 5 Kalkulus</h1>
+
+    <h2 id="soal1">Soal 1</h2>
+    <div class="text_to_html">
+        <div class="soal">
+            <p><strong>a. Nilai \( x \) yang memberikan titik kritis:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Titik kritis adalah tempat \( f'(x) = 0 \) atau \( f'(x) \) tidak terdefinisi (jika ada kasus seperti itu). Dalam soal ini, \( f'(x) \) selalu terdefinisi, jadi kita hanya menyelesaikan \( f'(x) = 0 \).
+                
+
+\[ f'(x) = 6x^2 - 6x - 12 \]
+
+
+                
+
+\[ 6x^2 - 6x - 12 = 0 \]
+
+
+                
+
+\[ x^2 - x - 2 = 0 \]
+
+
+                
+
+\[ (x - 2)(x + 1) = 0 \]
+
+
+                Sehingga, \( x = 2 \) dan \( x = -1 \).
+                <strong>Titik kritis terjadi di \( x = -1 \) dan \( x = 2 \).</strong>
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>b. Di mana \( f(x) \) naik dan \( f(x) \) turun:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                - Jika \( x < -1 \), maka \( f'(x) > 0 \) sehingga \( f(x) \) naik.<br>
+                - Jika \( -1 < x < 2 \), maka \( f'(x) < 0 \) sehingga \( f(x) \) turun.<br>
+                - Jika \( x > 2 \), maka \( f'(x) > 0 \) sehingga \( f(x) \) naik.
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>c. Di mana \( f(x) \) cekung ke atas dan cekung ke bawah:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Untuk menentukan cekungan, kita perlu melihat tanda dari turunan kedua \( f''(x) \). Titik pembagian cekungan adalah ketika \( f''(x) = 0 \), yaitu:
+                
+
+\[ f''(x) = 12x - 6 \]
+
+
+                
+
+\[ 12x - 6 = 0 \]
+
+
+                
+
+\[ x = \frac{1}{2} \]
+
+
+            </p>
+            <p>
+                - Jika \( x < \frac{1}{2} \), maka \( f''(x) < 0 \) sehingga \( f(x) \) cekung ke bawah.<br>
+                - Jika \( x > \frac{1}{2} \), maka \( f''(x) > 0 \) sehingga \( f(x) \) cekung ke atas.
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>d. Nilai maksimum/minimum:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Evaluasi nilai fungsi di titik kritis dengan menganalisis perubahan tanda \( f'(x) \) atau langsung mengevaluasi nilai \( f(x) \).<br>
+                - \( f(-1) = 2(-1)^3 - 3(-1)^2 - 12(-1) + 13 \)<br>
+                
+
+\[ f(-1) = 2(-1) - 3(1) + 12 + 13 \]
+
+<br>
+                
+
+\[ f(-1) = -2 - 3 + 12 + 13 \]
+
+<br>
+                
+
+\[ f(-1) = 20 \]
+
+<br><br>
+
+                - \( f(2) = 2(2)^3 - 3(2)^2 - 12(2) + 13 \)<br>
+                
+
+\[ f(2) = 2(8) - 3(4) - 24 + 13 \]
+
+<br>
+                
+
+\[ f(2) = 16 - 12 - 24 + 13 \]
+
+<br>
+                
+
+\[ f(2) = -7 \]
+
+<br><br>
+
+                Dengan demikian, nilai maksimum dan minimum fungsi \( f(x) \) adalah:<br>
+                - Titik maksimum lokal adalah di \( x = -1 \) dengan nilai \( f(-1) = 20 \).<br>
+                - Titik minimum lokal adalah di \( x = 2 \) dengan nilai \( f(2) = -7 \).
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>e. Apakah \( f(x) \) memiliki titik balik:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Untuk menentukan titik balik, kita perlu melihat tanda dari turunan kedua \( f''(x) \).<br>
+                - Jika \( f''(x) \) berubah tanda dari negatif ke positif pada \( x = \frac{1}{2} \), maka \( x = \frac{1}{2} \) adalah titik balik, menunjukkan perubahan cekungan dari bawah ke atas.
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>f. Sketsa grafik:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                - Titik kritis: \((-1, 20)\) dan \((2, -7)\)<br>
+                - Titik balik: \( x = \frac{1}{2} \)<br>
+                - Interval naik: \( (-\infty, -1) \) dan \( (2, \infty) \)<br>
+                - Interval turun: \( (-1, 2) \)<br>
+                - Interval cekung ke atas: \( (\frac{1}{2}, \infty) \)<br>
+                - Interval cekung ke bawah: \( (-\infty, \frac{1}{2}) \)
+            </p>
+            <p>Titik koordinat untuk sketsa grafik:</p>
+            <p>
+                - \( x = -3 \), \( f(-3) = -32 \)<br>
+                - \( x = -2 \), \( f(-2) = 9 \)<br>
+                - \( x = -1 \), \( f(-1) = 20 \) (Titik kritis)<br>
+                - \( x = 0 \), \( f(0) = 13 \)<br>
+                - \( x = 1 \), \( f(1) = 0 \)<br>
+                - \( x = 2 \), \( f(2) = -7 \) (Titik kritis)<br>
+                - \( x = 3 \), \( f(3) = 4 \)<br>
+                - \( x = 4 \), \( f(4) = 45 \)
+            </p>
+            <p>
+                Dengan informasi ini, sketsa grafik dapat menunjukkan:<br>
+                - Titik kritis di \((-1, 20)\) dan \((2, -7)\).<br>
+                - Titik balik di \( x = \frac{1}{2} \).<br>
+                - Interval naik pada \( (-\infty, -1) \) dan \( (2, \infty) \).<br>
+                - Interval turun pada \( (-1, 2) \).<br>
+                - Interval cekung ke atas pada \( (\frac{1}{2}, \infty) \).<br>
+                - Interval cekung ke bawah pada \( (-\infty, \frac{1}{2}) \).
+            </p>
+            <img src="file:///C:/Users/Arif%20Rachman/Downloads/Tugas%20.png" alt="Grafik Soal 1f" />
+        </div>
+
+        <h2 id="soal2">Soal 2</h2>
+        <div class="soal">
+            <p><strong>a. Asimtot tegak:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Untuk menemukan asimtot tegak, kita perlu mencari nilai \( x \) yang membuat penyebut menjadi nol, karena fungsi tidak terdefinisi pada nilai-nilai tersebut.<br>
+                - Asimtot tegak terjadi saat penyebut \( x^2 - 4 = 0 \).<br>
+                
+
+\[ x^2 - 4 = 0 \]
+
+<br>
+                
+
+\[ (x - 2)(x + 2) = 0 \]
+
+<br>
+                Sehingga, \( x = 2 \) dan \( x = -2 \).
+            </p>
+        </div>
+
+        <div class="soal">
+            <p><strong>b. Asimtot datar:</strong></p>
+        </div>
+        <div class="jawaban">
+            <p>
+                Asimtot datar diperoleh dengan membandingkan derajat pembilang dan penyebut dari fungsi. Jika derajat pembilang dan penyebut sama, asimtot datar adalah rasio dari koefisien tertinggi dari pembilang dan penyebut.<br>
+                - Untuk fungsi \( \frac{x^2 - x - 2}{x^2 - 4} \), derajat pembilang dan penyebut sama (keduanya adalah 2).<br>
+                - Asimtot datar diperoleh dengan membandingkan koefisien dari \( x^2 \) pada pembilang dan penyebut:<br>
+                
+
+\[ \lim_{{x \to \infty}} \frac{x^2 - x - 2}{x^2 - 4} = \frac{1}{1} = 1 \]
+
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
